@@ -45,10 +45,17 @@ az deployment group create \
 
 ## Demo
 
+This is a video of me deploying the bicep-files in this repository. Except for Redis, since it takes a bit longer.
+The deploy itself, takes somewhere between 2,5 - 4 minutes to run.
 https://user-images.githubusercontent.com/58074583/196007873-da7100e1-a13c-4642-9be7-681121c7ba8f.mp4
 
 ## Demo result
 
 ![image](https://user-images.githubusercontent.com/58074583/200167295-a8bd7058-ee54-449c-9a05-6a52ba376b10.png)
 
+
+### The timing
+The screen shot below shows the timing for the deployment. It took 2 minutes and 36 seconds to create the ressources and may vary for updates.
+
+![image](https://user-images.githubusercontent.com/58074583/200505406-b70305ec-82b6-4e7b-a079-3e63f395ba3e.png)
 
