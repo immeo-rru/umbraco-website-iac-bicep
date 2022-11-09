@@ -5,6 +5,29 @@ It is complete example for deploying a website containing many resources and thi
 
 You can deploy the files here - they work :-)
 
+## Resources in this repo
+The table below shows the resources being created when deployed
+
+Drawing of the infrastructure
+![image](https://user-images.githubusercontent.com/58074583/200933185-59e0c03e-8141-4891-9fbc-376c653e381e.png)
+
+
+| **Ressource**                              | **Type**                                                                            | **Note**                                             |
+| ------------------------------------------ | ----------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| Service plan Backoffice                    | Microsoft.Web/serverfarms                                                           |                                                      |
+| Web app backoffice                         | Microsoft.Web/sites                                                                 | Web app for CMS Editros                              |
+| Azure Function                             | Microsoft.Web/sites                                                                 | Gets data from external source and processing  |
+| Database Server                            | Microsoft.Sql/servers                                                               |                                                      |
+| \- Database elastic pool                   | Microsoft.Sql/servers/elasticpools                                                  |                                                      |
+| \- Database: CMS                           | Microsoft.Sql/servers/databases                                                     |                                                      |
+| \- Database: Commerce                      | Microsoft.Sql/servers/databases                                                     |                                                      |
+|                                            | Microsoft.Web/sites                                                                 |                                                      |
+| Access resources internally in resource group | Microsoft.ManagedIdentity/userAssignedIdentities                                    |
+| Vault for secrets                          | Microsoft.KeyVault/vaults                                                           | Secrets such as API-keys and password |
+| Application insight                        | Microsoft.Insights                                                                  | For logging                                          |
+| Storage                                      | Microsoft.Storage/storageAccounts<br>Microsoft.Storage/storageAccounts/blobServices | Blob content in CMS                                |
+| Caching                                    | Microsoft.Cache/redis                                                               | For caching of product data                                                     |
+
 ## Prerequisites
 You will need to have two things ready before start deploying:
 1. an **existing resource group** in Azure where resourcer are created
