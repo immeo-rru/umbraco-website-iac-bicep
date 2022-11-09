@@ -5,6 +5,9 @@ It is complete example for deploying a website containing many resources and thi
 
 You can deploy the files here - they work :-)
 
+![image](https://user-images.githubusercontent.com/58074583/200934509-fd133f01-32ce-4c01-bba4-361e0ec99fde.png)
+
+
 ## Resources in this repo
 The bicep files in this repository are meant to be deployed, and the resources created after the deploy can be seen in the drawing of the infrastructure.
 
