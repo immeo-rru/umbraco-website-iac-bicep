@@ -6,11 +6,12 @@ It is complete example for deploying a website containing many resources and thi
 You can deploy the files here - they work :-)
 
 ## Resources in this repo
-The table below shows the resources being created when deployed
+The bicep files in this repository are meant to be deployed, and the resources created after the deploy can be seen in the drawing of the infrastructure.
 
-Drawing of the infrastructure
 ![image](https://user-images.githubusercontent.com/58074583/200933185-59e0c03e-8141-4891-9fbc-376c653e381e.png)
 
+
+The table below shows the resources being created when deployed
 
 | **Ressource**                              | **Type**                                                                            | **Note**                                             |
 | ------------------------------------------ | ----------------------------------------------------------------------------------- | ---------------------------------------------------- |
@@ -77,7 +78,7 @@ https://user-images.githubusercontent.com/58074583/196007873-da7100e1-a13c-4642-
 ![image](https://user-images.githubusercontent.com/58074583/200167295-a8bd7058-ee54-449c-9a05-6a52ba376b10.png)
 
 
-### The timing
+### How long did it take
 The screen shot below shows the timing for the deployment. It took 2 minutes and 36 seconds to create the ressources and may vary for updates.
 
 ![image](https://user-images.githubusercontent.com/58074583/200505406-b70305ec-82b6-4e7b-a079-3e63f395ba3e.png)
