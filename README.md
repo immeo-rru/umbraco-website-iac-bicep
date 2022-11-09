@@ -1,4 +1,4 @@
-# Bicep-files for deploying an Umbraco/commerce resources in Azure 
+# Bicep-files for deploying resources in Azure for hosting an Umbraco/commerce site 
 This repo contains bicep files for deploying a complete infrastructure for a site, infrastructure as code (IaC). 
 
 It is complete example for deploying a website containing many resources and this is the _how to guide_. 
